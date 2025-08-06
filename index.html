@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Flipbook eBook</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/turn.min.js"></script>
+</head>
+<body>
+
+  <div id="flipbook">
+    <div><img src="pages/page1.jpg" alt="Page 1"></div>
+    <div><img src="pages/page2.jpg" alt="Page 2"></div>
+    <div><img src="pages/page3.jpg" alt="Page 3"></div>
+    <div><img src="pages/page4.jpg" alt="Page 4"></div>
+  </div>
+
+  <script>
+    $('#flipbook').turn({
+      width: 800,
+      height: 500,
+      autoCenter: true
+    });
+  </script>
+
+</body>
+</html>
