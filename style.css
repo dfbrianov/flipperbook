@@ -1,0 +1,16 @@
+
+body {
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#flipbook {
+  width: 800px;
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
